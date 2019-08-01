@@ -14,3 +14,15 @@ brew install bazelbuild/tap/bazel
 # Check the binary
 bazel --version
 ```
+
+## Concepts
+
+#### Label
+
+A label is the name of a target within a workspace. (ex. `//hello:hello-world`)
+
+There exists two parts for a label, given the example.
+
+1. package name (ex. `hello` is the package name which is the relative path from
+   the WORKSPACE)
+2. target name (ex. `hello-world` is the target name)

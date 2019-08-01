@@ -1,4 +1,4 @@
-# native-rules
+# Hello World
 
 Rules are defined as something that:
 
@@ -11,13 +11,13 @@ Bazel comes with [native rules](https://docs.bazel.build/versions/master/be/over
 ## Run the example
 
 ```
-bazel build
+bazel build "//:hello-world"
 ```
 
 The built file can be ran using
 
 ```
-./dist/bin/native-rules
+./dist/bin/hello-world
 ```
 
 ## Links
