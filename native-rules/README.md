@@ -17,7 +17,7 @@ bazel build
 The built file can be ran using
 
 ```
-$(bazel info bazel-bin)/native-rules
+./dist/bin/native-rules
 ```
 
 ## Links
