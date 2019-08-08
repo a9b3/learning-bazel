@@ -1,0 +1,15 @@
+{
+  "name": "js-scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@bazel/bazel": "0.28.1",
+    "@bazel/typescript": "0.34.0",
+    "typescript": "3.5.3"
+  },
+  "dependencies": {
+    "@types/qs": "6.5.3",
+    "qs": "6.7.0"
+  }
+}
